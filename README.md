@@ -27,7 +27,7 @@ A powerful, stylish, and beginner-friendly **Malware Scanner** built with **Flas
 
 ## 📁 Project Structure
 
-Malicious_File_Scanner/
+**Malicious_File_Scanner/**
 │
 ├── app/
 │   ├── templates/               # HTML templates
@@ -42,7 +42,7 @@ Malicious_File_Scanner/
 │   └── routes.py               # Main Flask routes
 │
 ├── run.py                      # Flask app entry point
-└── README.md                   # This file
+└── README.md                   # This file **
 
 ## ⚙️ Setup Instructions
 
