@@ -23,27 +23,6 @@ A powerful, stylish, and beginner-friendly **Malware Scanner** built with **Flas
 - **APIs**: VirusTotal API, Hybrid Analysis API
 - **Deployment**: Localhost (for now), ready for Heroku or Render
 
----
-
-## 📁 Project Structure
-
-**Malicious_File_Scanner/**
-│
-├── app/
-│   ├── templates/               # HTML templates
-│   │   ├── index.html
-│   │   └── result.html
-│   ├── static/
-│   │   ├── style.css
-│   │   └── animations/scan.json
-│   ├── uploads/                 # Uploaded files
-│   ├── scanner_logic/          # VirusTotal and Hybrid Analysis integration
-│   │   └── malware_scanner.py
-│   └── routes.py               # Main Flask routes
-│
-├── run.py                      # Flask app entry point
-└── README.md                   # This file **
-
 ## ⚙️ Setup Instructions
 
 1. **Clone the repo**  
