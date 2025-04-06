@@ -25,7 +25,8 @@ A powerful, stylish, and beginner-friendly **Malware Scanner** built with **Flas
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
+
 Malicious_File_Scanner/
 │
 ├── app/
