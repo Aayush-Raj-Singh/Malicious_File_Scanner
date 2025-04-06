@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scan Report</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container mt-5 text-center">
+    <h2>🧾 Scan Completed</h2>
+    <div class="card mt-4">
+      <p><strong>Filename:</strong> {{ filename }}</p>
+      <p><strong>Status:</strong> {{ status }}</p>
+      <p><strong>Analysis ID:</strong> {{ analysis_id }}</p>
+    </div>
+    <a href="/" class="btn btn-cyber mt-3">Back to Home</a>
+  </div>
+</body>
+</html>

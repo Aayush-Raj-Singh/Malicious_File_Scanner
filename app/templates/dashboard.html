@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2>🔒 Scan History</h2>
+  <div class="card mt-3">
+    {% for line in history %}
+      <p>{{ line }}</p>
+    {% else %}
+      <p>No history available.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
